@@ -16,9 +16,9 @@ Step 2. Uses the edited image as input for the LTX-2 section. In the main Subgra
  - 1 – Depth
  - 2 – Canny
  - 3 – Pose
----
-### I2V ###
+
+### **I2V** ###
 A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings are the same as the I2V part in the combined workflow, without the image editing steps.
----
+
 ### EditImage ###
 A standalone workflow for image editing and upscaling. It uses the QwenImageEdit2509 pipeline together with SeedVR2 upscaling.
