@@ -18,7 +18,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 40,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -122,7 +122,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 53,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -185,7 +185,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -225,7 +225,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 61,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -265,7 +265,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 55,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -301,7 +301,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 60,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -337,7 +337,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 62,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -373,7 +373,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 64,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -407,7 +407,7 @@
         336
       ],
       "flags": {},
-      "order": 48,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -475,8 +475,7 @@
         "0, 0, 0",
         "center",
         2,
-        "gpu",
-        "<tr><td>Output: </td><td><b>1</b> x <b>1920</b> x <b>2240 | 49.22MB</b></td></tr>"
+        "gpu"
       ]
     },
     {
@@ -491,7 +490,7 @@
         1055.9357751263915
       ],
       "flags": {},
-      "order": 69,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -578,7 +577,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 71,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -618,7 +617,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -873,42 +872,6 @@
       "bgcolor": "#29699c"
     },
     {
-      "id": 164,
-      "type": "LoadVideo",
-      "pos": [
-        -5239.622325891739,
-        4768.880715949545
-      ],
-      "size": [
-        698.798828125,
-        1143.420138888889
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VIDEO",
-          "type": "VIDEO",
-          "links": [
-            432,
-            474,
-            484
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "LoadVideo"
-      },
-      "widgets_values": [
-        "traffic_24fps_113F0001-0113.mp4",
-        "image"
-      ]
-    },
-    {
       "id": 351,
       "type": "ModelSamplingAuraFlow",
       "pos": [
@@ -922,7 +885,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 56,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -971,7 +934,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -1024,7 +987,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1058,7 +1021,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1092,7 +1055,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1132,7 +1095,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1172,7 +1135,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1212,7 +1175,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 57,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -1257,7 +1220,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 68,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -1302,7 +1265,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 44,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -1343,58 +1306,6 @@
       "widgets_values": []
     },
     {
-      "id": 307,
-      "type": "GetVideoComponents",
-      "pos": [
-        -4512.994107001451,
-        4720.51921257406
-      ],
-      "size": [
-        193.530859375,
-        66
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 41,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video",
-          "type": "VIDEO",
-          "link": 484
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": [
-            512,
-            556
-          ]
-        },
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "links": null
-        },
-        {
-          "name": "fps",
-          "type": "FLOAT",
-          "links": [
-            508
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.13.0",
-        "Node name for S&R": "GetVideoComponents"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 377,
       "type": "Power Lora Loader (rgthree)",
       "pos": [
@@ -1406,7 +1317,7 @@
         166
       ],
       "flags": {},
-      "order": 42,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1478,7 +1389,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1532,7 +1443,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1636,7 +1547,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 45,
+      "order": 43,
       "mode": 4,
       "inputs": [
         {
@@ -1705,7 +1616,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1735,7 +1646,7 @@
         88
       ],
       "flags": {},
-      "order": 54,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -1777,7 +1688,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 66,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -1817,7 +1728,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1847,7 +1758,7 @@
         285.85441434898075
       ],
       "flags": {},
-      "order": 65,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -1878,7 +1789,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1910,7 +1821,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1998,7 +1909,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2088,7 +1999,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 43,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2128,7 +2039,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2162,7 +2073,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2196,7 +2107,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2231,7 +2142,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -2286,7 +2197,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2315,12 +2226,12 @@
       ],
       "size": [
         210,
-        50
+        58
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2355,7 +2266,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 47,
+      "order": 45,
       "mode": 4,
       "inputs": [
         {
@@ -2393,7 +2304,7 @@
         314
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2520,7 +2431,7 @@
         620.6017491574621
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2561,7 +2472,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2587,7 +2498,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 29,
+      "order": 28,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2698,7 +2609,7 @@
         519.4146764071807
       ],
       "flags": {},
-      "order": 73,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -2772,70 +2683,6 @@
       }
     },
     {
-      "id": 393,
-      "type": "Label (rgthree)",
-      "pos": [
-        -5948.379490637066,
-        6298.8011541960295
-      ],
-      "size": [
-        399.4140625,
-        40
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 30,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Bypass LTX-2 process",
-      "properties": {
-        "fontSize": 40,
-        "fontFamily": "Arial",
-        "fontColor": "#ffffff",
-        "textAlign": "left",
-        "backgroundColor": "transparent",
-        "padding": 0,
-        "borderRadius": 0,
-        "angle": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
-      "id": 392,
-      "type": "Label (rgthree)",
-      "pos": [
-        -5987.891708452756,
-        5891.4549411969065
-      ],
-      "size": [
-        477.98828125,
-        40
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 31,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Bypass Qwen Edit process",
-      "properties": {
-        "fontSize": 40,
-        "fontFamily": "Arial",
-        "fontColor": "#ffffff",
-        "textAlign": "left",
-        "backgroundColor": "transparent",
-        "padding": 0,
-        "borderRadius": 0,
-        "angle": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
       "id": 386,
       "type": "Fast Bypasser (rgthree)",
       "pos": [
@@ -2905,7 +2752,7 @@
         78
       ],
       "flags": {},
-      "order": 70,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -2932,70 +2779,6 @@
       "properties": {
         "toggleRestriction": "default"
       }
-    },
-    {
-      "id": 399,
-      "type": "Label (rgthree)",
-      "pos": [
-        -5985.1590619157305,
-        5941.682567422891
-      ],
-      "size": [
-        133.3740234375,
-        25
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 32,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "(Turn off all)",
-      "properties": {
-        "fontSize": 25,
-        "fontFamily": "Arial",
-        "fontColor": "#ffffff",
-        "textAlign": "left",
-        "backgroundColor": "transparent",
-        "padding": 0,
-        "borderRadius": 0,
-        "angle": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
-      "id": 390,
-      "type": "Label (rgthree)",
-      "pos": [
-        -5914.185444984284,
-        6556.625905405492
-      ],
-      "size": [
-        306.796875,
-        40
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 33,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Bypass Compare",
-      "properties": {
-        "fontSize": 40,
-        "fontFamily": "Arial",
-        "fontColor": "#ffffff",
-        "textAlign": "left",
-        "backgroundColor": "transparent",
-        "padding": 0,
-        "borderRadius": 0,
-        "angle": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
     },
     {
       "id": 389,
@@ -3063,7 +2846,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 34,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3095,7 +2878,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 35,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3125,7 +2908,7 @@
         516.3814401072523
       ],
       "flags": {},
-      "order": 36,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3133,6 +2916,274 @@
       "properties": {},
       "widgets_values": [
         "## <br>📝 \n## Width &amp; Heigh\n> Width &amp; height settings must be divisible by **64**. \n\n────────────────────────────────────────\n## <br>📝 \n## Select Control\n> 1 - Depth <br> \n2 - Canny <br>\n3 - Pose <br>\n\nAfter selecting the Control number, remember to **switch to the corresponding LoRA** <br>\n*( <<< You can find the model download links in the Official Notes on the left-hand side.)*\n\n────────────────────────────────────────\n## <br>📝 \n## Frame Count\n> Frame count must be divisible by **8 + 1** \n\n\n**Maximum**: 257 frames (~10 seconds at 25fps) <br>\n**Recommended range**: 121-161 frames for balanced quality and memory usage\n<br>\n\n────────────────────────────────────────\n## <br>📝 \n**Official documents**: <br>\n[Go to Official documents](https://docs.ltx.video/open-source-model/usage-guides/image-to-video#frame-count)\n"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 363,
+      "type": "MarkdownNote",
+      "pos": [
+        -8862.863432144386,
+        4738.779863747879
+      ],
+      "size": [
+        550,
+        550
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 32,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model links",
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "[Tutorial](https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit)\n\n\n## Model links\n\nYou can find all the models on [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main) and  [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) \n\n**Diffusion model**\n\n- [qwen_image_edit_2509_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors)\n\n**LoRA**\n\n- [Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen_image_edit_2509_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   └── Qwen-Image-Lightning-4steps-V1.0.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n\n## Report issue\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/Comfy-Org/workflow_templates/issues)"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 393,
+      "type": "Label (rgthree)",
+      "pos": [
+        -5948.379490637066,
+        6298.8011541960295
+      ],
+      "size": [
+        299.560546875,
+        30
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 33,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Bypass LTX-2 process",
+      "properties": {
+        "fontSize": 30,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0,
+        "angle": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 390,
+      "type": "Label (rgthree)",
+      "pos": [
+        -5914.185444984284,
+        6556.625905405492
+      ],
+      "size": [
+        230.09765625,
+        30
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 34,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Bypass Compare",
+      "properties": {
+        "fontSize": 30,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0,
+        "angle": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 392,
+      "type": "Label (rgthree)",
+      "pos": [
+        -5934.422982876034,
+        5888.112938694178
+      ],
+      "size": [
+        363.5009765625,
+        30
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Bypass Image Edit process",
+      "properties": {
+        "fontSize": 30,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0,
+        "angle": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 399,
+      "type": "Label (rgthree)",
+      "pos": [
+        -5931.690081380015,
+        5934.999072335424
+      ],
+      "size": [
+        133.3740234375,
+        25
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "(Turn off all)",
+      "properties": {
+        "fontSize": 25,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0,
+        "angle": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 164,
+      "type": "LoadVideo",
+      "pos": [
+        -5239.622325891739,
+        4768.880715949545
+      ],
+      "size": [
+        698.798828125,
+        1143.420138888889
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            432,
+            474,
+            484
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "LoadVideo"
+      },
+      "widgets_values": [
+        "traffic_24fps_113F0001-0113.mp4",
+        "image"
+      ]
+    },
+    {
+      "id": 307,
+      "type": "GetVideoComponents",
+      "pos": [
+        -4512.994107001451,
+        4720.51921257406
+      ],
+      "size": [
+        193.530859375,
+        66
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 484
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            512,
+            556
+          ]
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "links": [
+            508
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.13.0",
+        "Node name for S&R": "GetVideoComponents"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 398,
+      "type": "MarkdownNote",
+      "pos": [
+        -6526.420027123251,
+        6451.518831382549
+      ],
+      "size": [
+        478.6706263134811,
+        374.163303576428
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note !!",
+      "properties": {},
+      "widgets_values": [
+        "# ❗❗ ➡️➡️➡️\n<br>\n\n## Qwen and LTX-2 need to run separately, otherwise you'll hit a memory error. Make sure to turn off the LTX-2 switch before running Qwen. (Important!),\n\n<br>\n\n## To start your LTX-2 video gen, flip its switch ON and keep all Qwen toggles OFF. (Important!)\n\n<br>\n\n## This workflow is for anyone who wants everything in one place...\n\n\n"
       ],
       "color": "#323",
       "bgcolor": "#535"
@@ -3146,12 +3197,12 @@
       ],
       "size": [
         556.8028155301736,
-        502.2239563980495
+        372
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 58,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -3293,58 +3344,6 @@
         1
       ],
       "shape": 4
-    },
-    {
-      "id": 398,
-      "type": "MarkdownNote",
-      "pos": [
-        -6526.420027123251,
-        6451.518831382549
-      ],
-      "size": [
-        478.6706263134811,
-        374.163303576428
-      ],
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Note !!",
-      "properties": {},
-      "widgets_values": [
-        "# ❗❗ ➡️➡️➡️\n<br>\n\n## Qwen and LTX-2 need to run separately, otherwise you'll hit a memory error. Make sure to turn off the LTX-2 switch before running Qwen. (Important!),\n\n<br>\n\n## To start your LTX-2 video gen, flip its switch ON and keep all Qwen toggles OFF. (Important!)\n\n<br>\n\n## This workflow is just for anyone who's too lazy to keep switching between workflows... \n\n\n"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 363,
-      "type": "MarkdownNote",
-      "pos": [
-        -9200.38509698112,
-        4712.045500959517
-      ],
-      "size": [
-        550,
-        550
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 38,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model links",
-      "properties": {
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit)\n\n\n## Model links\n\nYou can find all the models on [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main) and  [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) \n\n**Diffusion model**\n\n- [qwen_image_edit_2509_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors)\n\n**LoRA**\n\n- [Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen_image_edit_2509_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   └── Qwen-Image-Lightning-4steps-V1.0.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n\n## Report issue\nIf you have any problems running this workflow, please report template-related issues via this link: [report the template issue here](https://github.com/Comfy-Org/workflow_templates/issues)"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -3934,7 +3933,7 @@
     },
     {
       "id": 10,
-      "title": "Qwen Image Edit",
+      "title": "Image Edit",
       "bounding": [
         -8951.055898960218,
         4628.138377938153,
@@ -3942,7 +3941,7 @@
         1648.2276079995474
       ],
       "color": "#3f789e",
-      "font_size": 60,
+      "font_size": 40,
       "flags": {}
     },
     {
@@ -6712,7 +6711,7 @@
               2610.3231459583817
             ],
             "size": [
-              140,
+              113.96484375,
               50
             ],
             "flags": {
@@ -10418,10 +10417,10 @@
       "favorites": []
     },
     "ds": {
-      "scale": 0.23579476910000047,
+      "scale": 0.21762913579014861,
       "offset": [
-        9999.478226375286,
-        -3540.654268218966
+        9708.27027301116,
+        -3331.664003068678
       ]
     }
   },
