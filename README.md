@@ -14,9 +14,9 @@ A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit25
 **Step 1.** Automatically extracts the first frame from an input video (or uses a provided image). Edits the frame using a reference style/image and prompt.
 
 **Step 2.** Uses the edited image as input for the LTX-2 section. In the main Subgraph node, select the control type using SelectControl (values 1–3), make sure to select the corresponding LoRA:
- - 1 – Depth
+ - 1 – Depth (Depth Anything V2)
  - 2 – Canny
- - 3 – Pose
+ - 3 – Pose (ViTPose)
 
 **Important** Qwen and LTX-2 need to run separately, otherwise you'll hit a memory error. Make sure to turn off the LTX-2 switch before running Qwen.
 
@@ -29,6 +29,7 @@ A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings 
  
 ### EditImage 
 A standalone workflow for image editing and upscaling. It uses the QwenImageEdit2509(GGUF) pipeline together with SeedVR2 upscaling.
+( You can also swap in other model versions as needed.)
 
 ![WorkflowPreview](result/edit.png)
 
@@ -42,3 +43,8 @@ Install the following nodes (It is best to use ComfyUI Manager):
 * [ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack)
 
 * [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)
+
+### Models
+* [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
+* [Qwen-Image-Edit-2509-GGUF](https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF)
+* [Qwen-Image-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Lightning/tree/main/Qwen-Image-Edit-2509)
