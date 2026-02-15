@@ -9,6 +9,7 @@ This contains three ComfyUI workflows. You can run them separately or use the co
 
 ### I2V + EditImage 
 (This workflow is for anyone who wants everything in one place.)
+
 A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit2509. It includes toggle switches to enable or disable steps, or to switch controls within the same workflow:
 
 **Step 1.** Automatically extracts the first frame from an input video (or uses a provided image). Edits the frame using a reference style/image and prompt.
