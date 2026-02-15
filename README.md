@@ -4,7 +4,7 @@ An Image-to-Video (I2V) workflow adapted from LTX-2_ICLoRA_Distilled, integrated
 
 ![WorkflowPreview](workflows/I2V+EditImage/LTX-2_ICLoRA+QwenImageEdit.png)
 
-## About the Files
+## 📝About the Files
 This contains three ComfyUI workflows. You can run them separately or use the combined workflow:
 
 ### I2V + EditImage ###
@@ -17,6 +17,8 @@ A combined workflow based on LTX-2_ICLoRA_Distilled pipeline and QwenImageEdit25
  - 2 – Canny
  - 3 – Pose
 
+**Important** Qwen and LTX-2 need to run separately, otherwise you'll hit a memory error. Make sure to turn off the LTX-2 switch before running Qwen.
+
  ![WorkflowPreview](result/result_depth.gif)
 
 ### I2V ###
@@ -27,4 +29,6 @@ A standalone Image-to-Video workflow using LTX-2_ICLoRA_Distilled. The settings 
 ### EditImage ###
 A standalone workflow for image editing and upscaling. It uses the QwenImageEdit2509 pipeline together with SeedVR2 upscaling.
 
-![WorkflowPreview](result/pose.PNG)
+![WorkflowPreview](result/edit.png)
+
+## Custom Nodes
