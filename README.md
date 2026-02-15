@@ -48,3 +48,6 @@ Install the following nodes (It is best to use ComfyUI Manager):
 * [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
 * [Qwen-Image-Edit-2509-GGUF](https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF)
 * [Qwen-Image-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Lightning/tree/main/Qwen-Image-Edit-2509)
+
+## Important Notes
+If you load the workflow without ComfyUI-LTXVideo installed, some items on the Subgraph (such as SelectControl) may disappear. Once the nodes are installed, simply drag the workflow into ComfyUI again and it will display correctly.
