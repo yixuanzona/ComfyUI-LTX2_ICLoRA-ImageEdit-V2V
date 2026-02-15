@@ -10,8 +10,8 @@ This contains three ComfyUI workflows. You can run them separately or use the co
 ### I2V + EditImage ###
 A combined workflow based on LTX-2_ICLoRA_Distilled workflow and QwenImageEdit2509. It includes toggle switches to enable or disable steps, or to switch controls within the same workflow:
 
-1. Automatically extracts the first frame from an input video (or uses a provided image). Edits the frame using a reference style/image and prompt.
-2. Uses the edited image as input for the LTX-2 section. In the main Subgraph node, select the control type using SelectControl (values 1–3), make sure to select the corresponding LoRA:
-   - 1 – Depth
-   - 2 – Canny
-   - 3 – Pos
+Step 1. Automatically extracts the first frame from an input video (or uses a provided image). Edits the frame using a reference style/image and prompt.
+Step 2. Uses the edited image as input for the LTX-2 section. In the main Subgraph node, select the control type using SelectControl (values 1–3), make sure to select the corresponding LoRA:
+ - 1 – Depth
+ - 2 – Canny
+ - 3 – Pose
