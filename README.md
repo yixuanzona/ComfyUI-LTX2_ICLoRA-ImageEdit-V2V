@@ -1,5 +1,5 @@
 # ComfyUI-LTX2_ICLoRA-ImageEdit-V2V
-An Image-to-Video (I2V) workflow based on LTX-2_ICLoRA_Distilled pipeline, integrated with Qwen image editing, featuring toggle switches for control options.
+An Video-to-Video (V2V) workflow based on LTX-2_ICLoRA_Distilled pipeline, integrated with Qwen image editing, featuring toggle switches for control options.
 
 
 ![WorkflowPreview](workflows/I2V+EditImage/LTX-2_ICLoRA+QwenImageEdit.png)
