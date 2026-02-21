@@ -46,6 +46,8 @@ Install the following nodes (It is best to use ComfyUI Manager):
 
 * [ComfyUI-SeedVR2_VideoUpscaler](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)
 
+* [rgthree-comfy](https://github.com/rgthree/rgthree-comfy)
+
 * [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)
 
 ### Models
